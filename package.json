@@ -1,0 +1,21 @@
+{
+  "name": "hedera-test",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.42.6",
+    "svelthree": "^0.119.0-5"
+  },
+  "type": "module",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.0.13",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "three": "^0.134.0"
+  }
+}
